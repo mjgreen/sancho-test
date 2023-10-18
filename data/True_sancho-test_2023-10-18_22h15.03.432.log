@@ -1,0 +1,88 @@
+6.6845 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002D3BCBAD190>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002D3BCBAD130>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002D3BCB9BFD0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002D3BCAFAE20>, multiSample=False, name='window1', numSamples=2, pos=(210, 140), screen=0, size=array([1500,  800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.6847 	EXP 	window1: mouseVisible = True
+6.6847 	EXP 	window1: backgroundImage = ''
+6.6847 	EXP 	window1: backgroundFit = 'none'
+6.6894 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.6894 	EXP 	window1: recordFrameIntervals = False
+6.8506 	EXP 	window1: recordFrameIntervals = True
+7.0345 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+7.0346 	EXP 	window1: recordFrameIntervals = False
+7.0347 	EXP 	window1: mouseVisible = True
+7.0887 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+9.0618 	EXP 	sancho-test: status = STARTED
+9.0622 	EXP 	window1: mouseVisible = True
+9.0788 	EXP 	Created which_participant = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='which_participant', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0790 	EXP 	window1: mouseVisible = True
+9.0800 	EXP 	Created put_task = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='put_task', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0801 	EXP 	window1: mouseVisible = True
+9.0811 	EXP 	Created mylabel1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='mylabel1', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0811 	EXP 	window1: mouseVisible = True
+9.0821 	EXP 	Created myshape1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='myshape1', opacity=1.0, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0822 	EXP 	window1: mouseVisible = True
+9.0832 	EXP 	Created mylabel2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='mylabel2', opacity=1.0, ori=0.0, pos=array([-0.5, -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0832 	EXP 	window1: mouseVisible = True
+9.0842 	EXP 	Created myshape2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='myshape2', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0843 	EXP 	window1: mouseVisible = True
+9.0853 	EXP 	Created mylabel3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='mylabel3', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0855 	EXP 	window1: mouseVisible = True
+9.0865 	EXP 	Created myshape3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='myshape3', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0868 	EXP 	window1: mouseVisible = True
+9.1376 	EXP 	Created press_space = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='press_space', opacity=1.0, ori=0.0, pos=array([ 0. , -0.5]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0091 	EXP 	Created sequence: random, trialTypes=1, nReps=50, seed=None
+0.0094 	EXP 	New trial (rep=0, index=0): None
+0.0586 	EXP 	which_participant: height = 0.05
+0.0586 	EXP 	which_participant: height = 0.05
+0.0586 	EXP 	which_participant: height = 0.05
+0.0586 	EXP 	which_participant: text = 'This is participant number 1'
+0.0586 	EXP 	put_task: height = 0.05
+0.0586 	EXP 	put_task: height = 0.05
+0.0586 	EXP 	put_task: height = 0.05
+0.0586 	EXP 	put_task: text = 'Task is: control'
+0.0586 	EXP 	mylabel1: height = 0.05
+0.0586 	EXP 	mylabel1: height = 0.05
+0.0586 	EXP 	mylabel1: height = 0.05
+0.0586 	EXP 	mylabel1: text = 'Label 1 is: air'
+0.0586 	EXP 	myshape1: height = 0.05
+0.0586 	EXP 	myshape1: height = 0.05
+0.0586 	EXP 	myshape1: height = 0.05
+0.0586 	EXP 	myshape1: text = 'Shape 1 is: Circle'
+0.0586 	EXP 	mylabel2: height = 0.05
+0.0586 	EXP 	mylabel2: height = 0.05
+0.0586 	EXP 	mylabel2: height = 0.05
+0.0586 	EXP 	mylabel2: text = 'Label 2 is: sky'
+0.0586 	EXP 	myshape2: height = 0.05
+0.0586 	EXP 	myshape2: height = 0.05
+0.0586 	EXP 	myshape2: height = 0.05
+0.0586 	EXP 	myshape2: text = 'Shape 2 is: Triangle'
+0.0586 	EXP 	mylabel3: height = 0.05
+0.0586 	EXP 	mylabel3: height = 0.05
+0.0586 	EXP 	mylabel3: height = 0.05
+0.0586 	EXP 	mylabel3: text = 'Label 3 is: earth'
+0.0586 	EXP 	myshape3: height = 0.05
+0.0586 	EXP 	myshape3: height = 0.05
+0.0586 	EXP 	myshape3: height = 0.05
+0.0586 	EXP 	myshape3: text = 'Shape 3 is: Square'
+0.0586 	EXP 	which_participant: autoDraw = True
+0.0586 	EXP 	put_task: autoDraw = True
+0.0586 	EXP 	mylabel1: autoDraw = True
+0.0586 	EXP 	myshape1: autoDraw = True
+0.0586 	EXP 	mylabel2: autoDraw = True
+0.0586 	EXP 	myshape2: autoDraw = True
+0.0586 	EXP 	mylabel3: autoDraw = True
+0.0586 	EXP 	myshape3: autoDraw = True
+0.0586 	EXP 	press_space: autoDraw = True
+1.0577 	EXP 	press_space: autoDraw = False
+5.2950 	DATA 	Mouse: Left button down, pos=(38,334)
+5.3428 	DATA 	Mouse:  Left button up, pos=(38,334)
+5.6092 	DATA 	Keypress: escape
+5.7026 	EXP 	sancho-test: status = STOPPED
+5.7182 	EXP 	which_participant: autoDraw = False
+5.7182 	EXP 	put_task: autoDraw = False
+5.7182 	EXP 	mylabel1: autoDraw = False
+5.7182 	EXP 	myshape1: autoDraw = False
+5.7182 	EXP 	mylabel2: autoDraw = False
+5.7182 	EXP 	myshape2: autoDraw = False
+5.7182 	EXP 	mylabel3: autoDraw = False
+5.7182 	EXP 	myshape3: autoDraw = False
+5.7183 	EXP 	sancho-test: status = STOPPED
+5.7467 	EXP 	window1: mouseVisible = True

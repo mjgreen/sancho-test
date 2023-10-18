@@ -1,0 +1,190 @@
+6.6037 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021E7615A250>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021E7615A1F0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021E7615A040>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021E76F49F40>, multiSample=False, name='window1', numSamples=2, pos=(210, 140), screen=0, size=array([1500,  800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.6039 	EXP 	window1: mouseVisible = True
+6.6039 	EXP 	window1: backgroundImage = ''
+6.6040 	EXP 	window1: backgroundFit = 'none'
+6.6090 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.6091 	EXP 	window1: recordFrameIntervals = False
+6.7687 	EXP 	window1: recordFrameIntervals = True
+6.9513 	EXP 	Screen (0) actual frame rate measured at 60.34Hz
+6.9513 	EXP 	window1: recordFrameIntervals = False
+6.9514 	EXP 	window1: mouseVisible = True
+6.9909 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+8.9637 	EXP 	sancho-test: status = STARTED
+8.9641 	EXP 	window1: mouseVisible = True
+8.9809 	EXP 	Created which_participant = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='which_participant', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9810 	EXP 	window1: mouseVisible = True
+8.9821 	EXP 	Created put_task = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='put_task', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9822 	EXP 	window1: mouseVisible = True
+8.9832 	EXP 	Created mylabel1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='mylabel1', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9833 	EXP 	window1: mouseVisible = True
+8.9843 	EXP 	Created myshape1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='myshape1', opacity=1.0, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9843 	EXP 	window1: mouseVisible = True
+8.9854 	EXP 	Created mylabel2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='mylabel2', opacity=1.0, ori=0.0, pos=array([-0.5, -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9854 	EXP 	window1: mouseVisible = True
+8.9864 	EXP 	Created myshape2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='myshape2', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9865 	EXP 	window1: mouseVisible = True
+8.9875 	EXP 	Created mylabel3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='mylabel3', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9876 	EXP 	window1: mouseVisible = True
+8.9886 	EXP 	Created myshape3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='myshape3', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9887 	EXP 	window1: mouseVisible = True
+9.0342 	EXP 	Created press_space = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='press_space', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0150 	EXP 	Created sequence: random, trialTypes=1, nReps=50, seed=None
+0.0153 	EXP 	New trial (rep=0, index=0): None
+0.0644 	EXP 	which_participant: height = 0.05
+0.0644 	EXP 	which_participant: height = 0.05
+0.0644 	EXP 	which_participant: height = 0.05
+0.0644 	EXP 	which_participant: text = 'This is participant number 1'
+0.0644 	EXP 	put_task: height = 0.05
+0.0644 	EXP 	put_task: height = 0.05
+0.0644 	EXP 	put_task: height = 0.05
+0.0644 	EXP 	put_task: text = 'Task is: reward'
+0.0644 	EXP 	mylabel1: height = 0.05
+0.0644 	EXP 	mylabel1: height = 0.05
+0.0644 	EXP 	mylabel1: height = 0.05
+0.0644 	EXP 	mylabel1: text = 'Label 1 is: none'
+0.0644 	EXP 	myshape1: height = 0.05
+0.0644 	EXP 	myshape1: height = 0.05
+0.0644 	EXP 	myshape1: height = 0.05
+0.0644 	EXP 	myshape1: text = 'Shape 1 is: Pentagon'
+0.0644 	EXP 	mylabel2: height = 0.05
+0.0644 	EXP 	mylabel2: height = 0.05
+0.0644 	EXP 	mylabel2: height = 0.05
+0.0644 	EXP 	mylabel2: text = 'Label 2 is: medium'
+0.0644 	EXP 	myshape2: height = 0.05
+0.0644 	EXP 	myshape2: height = 0.05
+0.0644 	EXP 	myshape2: height = 0.05
+0.0644 	EXP 	myshape2: text = 'Shape 2 is: Oval'
+0.0644 	EXP 	mylabel3: height = 0.05
+0.0644 	EXP 	mylabel3: height = 0.05
+0.0644 	EXP 	mylabel3: height = 0.05
+0.0644 	EXP 	mylabel3: text = 'Label 3 is: high'
+0.0644 	EXP 	myshape3: height = 0.05
+0.0644 	EXP 	myshape3: height = 0.05
+0.0644 	EXP 	myshape3: height = 0.05
+0.0644 	EXP 	myshape3: text = 'Shape 3 is: Diamond'
+0.0644 	EXP 	which_participant: autoDraw = True
+0.0644 	EXP 	put_task: autoDraw = True
+0.0644 	EXP 	mylabel1: autoDraw = True
+0.0644 	EXP 	myshape1: autoDraw = True
+0.0644 	EXP 	mylabel2: autoDraw = True
+0.0644 	EXP 	myshape2: autoDraw = True
+0.0644 	EXP 	mylabel3: autoDraw = True
+0.0644 	EXP 	myshape3: autoDraw = True
+0.0644 	EXP 	press_space: autoDraw = True
+10.1704 	EXP 	New trial (rep=1, index=0): None
+10.1998 	DATA 	Keypress: space
+10.2174 	EXP 	which_participant: autoDraw = False
+10.2174 	EXP 	put_task: autoDraw = False
+10.2174 	EXP 	mylabel1: autoDraw = False
+10.2174 	EXP 	myshape1: autoDraw = False
+10.2174 	EXP 	mylabel2: autoDraw = False
+10.2174 	EXP 	myshape2: autoDraw = False
+10.2174 	EXP 	mylabel3: autoDraw = False
+10.2174 	EXP 	myshape3: autoDraw = False
+10.2174 	EXP 	press_space: autoDraw = False
+10.2174 	EXP 	which_participant: height = 0.05
+10.2174 	EXP 	which_participant: height = 0.05
+10.2174 	EXP 	which_participant: height = 0.05
+10.2174 	EXP 	which_participant: text = 'This is participant number 2'
+10.2174 	EXP 	put_task: height = 0.05
+10.2174 	EXP 	put_task: height = 0.05
+10.2174 	EXP 	put_task: height = 0.05
+10.2174 	EXP 	put_task: text = 'Task is: control'
+10.2174 	EXP 	mylabel1: height = 0.05
+10.2174 	EXP 	mylabel1: height = 0.05
+10.2174 	EXP 	mylabel1: height = 0.05
+10.2174 	EXP 	mylabel1: text = 'Label 1 is: sky'
+10.2174 	EXP 	myshape1: height = 0.05
+10.2174 	EXP 	myshape1: height = 0.05
+10.2174 	EXP 	myshape1: height = 0.05
+10.2174 	EXP 	myshape1: text = 'Shape 1 is: Square'
+10.2174 	EXP 	mylabel2: height = 0.05
+10.2174 	EXP 	mylabel2: height = 0.05
+10.2174 	EXP 	mylabel2: height = 0.05
+10.2174 	EXP 	mylabel2: text = 'Label 2 is: air'
+10.2174 	EXP 	myshape2: height = 0.05
+10.2174 	EXP 	myshape2: height = 0.05
+10.2174 	EXP 	myshape2: height = 0.05
+10.2174 	EXP 	myshape2: text = 'Shape 2 is: Triangle'
+10.2174 	EXP 	mylabel3: height = 0.05
+10.2174 	EXP 	mylabel3: height = 0.05
+10.2174 	EXP 	mylabel3: height = 0.05
+10.2174 	EXP 	mylabel3: text = 'Label 3 is: earth'
+10.2174 	EXP 	myshape3: height = 0.05
+10.2174 	EXP 	myshape3: height = 0.05
+10.2174 	EXP 	myshape3: height = 0.05
+10.2174 	EXP 	myshape3: text = 'Shape 3 is: Circle'
+10.2174 	EXP 	which_participant: autoDraw = True
+10.2174 	EXP 	put_task: autoDraw = True
+10.2174 	EXP 	mylabel1: autoDraw = True
+10.2174 	EXP 	myshape1: autoDraw = True
+10.2174 	EXP 	mylabel2: autoDraw = True
+10.2174 	EXP 	myshape2: autoDraw = True
+10.2174 	EXP 	mylabel3: autoDraw = True
+10.2174 	EXP 	myshape3: autoDraw = True
+10.2174 	EXP 	press_space: autoDraw = True
+11.0422 	DATA 	Keypress: space
+11.0521 	EXP 	New trial (rep=2, index=0): None
+11.0833 	EXP 	which_participant: autoDraw = False
+11.0833 	EXP 	put_task: autoDraw = False
+11.0833 	EXP 	mylabel1: autoDraw = False
+11.0833 	EXP 	myshape1: autoDraw = False
+11.0833 	EXP 	mylabel2: autoDraw = False
+11.0833 	EXP 	myshape2: autoDraw = False
+11.0833 	EXP 	mylabel3: autoDraw = False
+11.0833 	EXP 	myshape3: autoDraw = False
+11.0833 	EXP 	press_space: autoDraw = False
+11.0833 	EXP 	which_participant: height = 0.05
+11.0833 	EXP 	which_participant: height = 0.05
+11.0833 	EXP 	which_participant: height = 0.05
+11.0833 	EXP 	which_participant: text = 'This is participant number 3'
+11.0833 	EXP 	put_task: height = 0.05
+11.0833 	EXP 	put_task: height = 0.05
+11.0833 	EXP 	put_task: height = 0.05
+11.0833 	EXP 	put_task: text = 'Task is: reward'
+11.0833 	EXP 	mylabel1: height = 0.05
+11.0833 	EXP 	mylabel1: height = 0.05
+11.0833 	EXP 	mylabel1: height = 0.05
+11.0833 	EXP 	mylabel1: text = 'Label 1 is: none'
+11.0833 	EXP 	myshape1: height = 0.05
+11.0833 	EXP 	myshape1: height = 0.05
+11.0833 	EXP 	myshape1: height = 0.05
+11.0833 	EXP 	myshape1: text = 'Shape 1 is: Diamond'
+11.0833 	EXP 	mylabel2: height = 0.05
+11.0833 	EXP 	mylabel2: height = 0.05
+11.0833 	EXP 	mylabel2: height = 0.05
+11.0833 	EXP 	mylabel2: text = 'Label 2 is: high'
+11.0833 	EXP 	myshape2: height = 0.05
+11.0833 	EXP 	myshape2: height = 0.05
+11.0833 	EXP 	myshape2: height = 0.05
+11.0833 	EXP 	myshape2: text = 'Shape 2 is: Oval'
+11.0833 	EXP 	mylabel3: height = 0.05
+11.0833 	EXP 	mylabel3: height = 0.05
+11.0833 	EXP 	mylabel3: height = 0.05
+11.0833 	EXP 	mylabel3: text = 'Label 3 is: medium'
+11.0833 	EXP 	myshape3: height = 0.05
+11.0833 	EXP 	myshape3: height = 0.05
+11.0833 	EXP 	myshape3: height = 0.05
+11.0833 	EXP 	myshape3: text = 'Shape 3 is: Pentagon'
+11.0833 	EXP 	which_participant: autoDraw = True
+11.0833 	EXP 	put_task: autoDraw = True
+11.0833 	EXP 	mylabel1: autoDraw = True
+11.0833 	EXP 	myshape1: autoDraw = True
+11.0833 	EXP 	mylabel2: autoDraw = True
+11.0833 	EXP 	myshape2: autoDraw = True
+11.0833 	EXP 	mylabel3: autoDraw = True
+11.0833 	EXP 	myshape3: autoDraw = True
+11.0833 	EXP 	press_space: autoDraw = True
+12.1612 	DATA 	Keypress: escape
+12.2494 	EXP 	sancho-test: status = STOPPED
+12.2651 	EXP 	which_participant: autoDraw = False
+12.2651 	EXP 	put_task: autoDraw = False
+12.2651 	EXP 	mylabel1: autoDraw = False
+12.2651 	EXP 	myshape1: autoDraw = False
+12.2651 	EXP 	mylabel2: autoDraw = False
+12.2651 	EXP 	myshape2: autoDraw = False
+12.2651 	EXP 	mylabel3: autoDraw = False
+12.2651 	EXP 	myshape3: autoDraw = False
+12.2651 	EXP 	press_space: autoDraw = False
+12.2653 	EXP 	sancho-test: status = STOPPED
+12.3118 	EXP 	window1: mouseVisible = True
