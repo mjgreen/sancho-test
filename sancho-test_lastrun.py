@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2023.2.2),
-    on October 18, 2023, at 22:16
+This experiment was created using PsychoPy3 Experiment Builder (v2023.2.3),
+    on October 31, 2023, at 10:51
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -37,7 +37,7 @@ from psychopy.hardware import keyboard
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # Store info about the experiment session
-psychopyVersion = '2023.2.2'
+psychopyVersion = '2023.2.3'
 expName = 'sancho-test'  # from the Builder filename that created this script
 expInfo = {
     'sancho-test': [True, False],
@@ -106,7 +106,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='C:\\Users\\Matt\\gits\\sancho-test\\sancho-test_lastrun.py',
+        originPath='C:\\Users\\mgreen\\gits\\sancho-test\\sancho-test_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -388,6 +388,24 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "inter_trial_interval" ---
     ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
     
+    # --- Initialize components for Routine "one_trial" ---
+    label_text = visual.TextStim(win=win, name='label_text',
+        text='',
+        font='Open Sans',
+        pos=(0, 0.3), height=0.25, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=0.0);
+    shape_image = visual.ImageStim(
+        win=win,
+        name='shape_image', 
+        image='default.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, -0.3), size=(0.25, 0.25),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=-1.0)
+    trial_dismiss = keyboard.Keyboard()
+    
     # create some handy timers
     if globalClock is None:
         globalClock = core.Clock()  # to track the time since experiment started
@@ -398,6 +416,224 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     win.flip()  # flip window to reset last flip timer
     # store the exact time the global clock started
     expInfo['expStart'] = data.getDateStr(format='%Y-%m-%d %Hh%M.%S.%f %z', fractionalSecondDigits=6)
+    
+    # --- Prepare to start Routine "docount" ---
+    continueRoutine = True
+    # update component parameters for each repeat
+    thisExp.addData('docount.started', globalClock.getTime())
+    # Run 'Begin Routine' code from code
+    p=p+1
+    msg="This is participant number "+str(p)
+    # keep track of which components have finished
+    docountComponents = []
+    for thisComponent in docountComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "docount" ---
+    routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, inputs=inputs, win=win)
+            return
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            routineForceEnded = True
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in docountComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "docount" ---
+    for thisComponent in docountComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    thisExp.addData('docount.stopped', globalClock.getTime())
+    # the Routine "docount" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
+    
+    # --- Prepare to start Routine "setmap" ---
+    continueRoutine = True
+    # update component parameters for each repeat
+    thisExp.addData('setmap.started', globalClock.getTime())
+    # Run 'Begin Routine' code from set_mapping
+    import random
+    mytasks = ["control", "reward", "valence"]
+    random.shuffle(mytasks)
+    the_current_task = mytasks[0]
+    this_task_msg = "Task is: " + the_current_task
+    
+    if the_current_task == "control":
+    
+        possible_labels=['air', 'earth', 'sky']
+        random.shuffle(possible_labels)
+        Label1_type = possible_labels[0]
+        Label1_type_msg = "Label 1 is: " + Label1_type
+        Label2_type = possible_labels[1]
+        Label2_type_msg = "Label 2 is: " + Label2_type    
+        Label3_type = possible_labels[2]
+        Label3_type_msg = "Label 3 is: " + Label3_type
+    
+        indices=[0,1,2]
+        random.shuffle(indices)
+        possible_file_names =  ['T.bmp', 'S.bmp', 'C.bmp']
+        possible_shape_names = ['Triangle',     'Square',     'Circle']
+    
+        Shape1_shape_name = possible_shape_names[indices[0]] 
+        Shape1_file_name  = possible_file_names[indices[0]] 
+        Shape1_msg = "Shape 1 is: " + Shape1_shape_name
+        Shape2_shape_name = possible_shape_names[indices[1]]
+        Shape2_file_name  = possible_file_names[indices[1]]
+        Shape2_msg = "Shape 2 is: " + Shape2_shape_name
+        Shape3_shape_name = possible_shape_names[indices[2]]
+        Shape3_file_name  = possible_file_names[indices[2]]
+        Shape3_msg = "Shape 3 is: " + Shape3_shape_name
+    
+    elif the_current_task == "reward":
+        # then 
+        possible_labels=['£100', '£50', '£0']
+        random.shuffle(possible_labels)
+        Label1_type = possible_labels[0]
+        Label1_type_msg = "Label 1 is: " + Label1_type
+        Label2_type = possible_labels[1]
+        Label2_type_msg = "Label 2 is: " + Label2_type    
+        Label3_type = possible_labels[2]
+        Label3_type_msg = "Label 3 is: " + Label3_type
+    
+        indices=[0,1,2]
+        random.shuffle(indices)
+        possible_file_names =  ['P.bmp', 'D.bmp', 'O.bmp']
+        possible_shape_names = ['Pentagon',     'Diamond',     'Oval']
+    
+        Shape1_shape_name = possible_shape_names[indices[0]] 
+        Shape1_file_name  = possible_file_names[indices[0]] 
+        Shape1_msg = "Shape 1 is: " + Shape1_shape_name
+        Shape2_shape_name = possible_shape_names[indices[1]]
+        Shape2_file_name  = possible_file_names[indices[1]]
+        Shape2_msg = "Shape 2 is: " + Shape2_shape_name
+        Shape3_shape_name = possible_shape_names[indices[2]]
+        Shape3_file_name  = possible_file_names[indices[2]]
+        Shape3_msg = "Shape 3 is: " + Shape3_shape_name
+    
+    elif the_current_task == "valence":
+        # then 
+        possible_labels=['happy', 'neutral', 'sad']
+        random.shuffle(possible_labels)
+        Label1_type = possible_labels[0]
+        Label1_type_msg = "Label 1 is: " + Label1_type
+        Label2_type = possible_labels[1]
+        Label2_type_msg = "Label 2 is: " + Label2_type    
+        Label3_type = possible_labels[2]
+        Label3_type_msg = "Label 3 is: " + Label3_type
+    
+        indices=[0,1,2]
+        random.shuffle(indices)
+        possible_file_names =  ['H.bmp', 'R.bmp', 'X.bmp']
+        possible_shape_names = ['Hexagon',     'Rectangle',     'Star']
+    
+        Shape1_shape_name = possible_shape_names[indices[0]] 
+        Shape1_file_name  = possible_file_names[indices[0]] 
+        Shape1_msg = "Shape 1 is: " + Shape1_shape_name
+        Shape2_shape_name = possible_shape_names[indices[1]]
+        Shape2_file_name  = possible_file_names[indices[1]]
+        Shape2_msg = "Shape 2 is: " + Shape2_shape_name
+        Shape3_shape_name = possible_shape_names[indices[2]]
+        Shape3_file_name  = possible_file_names[indices[2]]
+        Shape3_msg = "Shape 3 is: " + Shape3_shape_name
+    
+    thisExp.addData('subjectNumber', p)
+    
+    thisExp.addData('task', the_current_task)
+    
+    thisExp.addData('Label1_type', Label1_type)
+    thisExp.addData('Shape1_shape_name', Shape1_shape_name)
+    thisExp.addData('Shape1_file_name', Shape1_file_name)
+    
+    thisExp.addData('Label2_type', Label2_type)
+    thisExp.addData('Shape2_shape_name', Shape2_shape_name)
+    thisExp.addData('Shape2_file_name', Shape2_file_name)
+    
+    thisExp.addData('Label3_type', Label3_type)
+    thisExp.addData('Shape3_shape_name', Shape3_shape_name)
+    thisExp.addData('Shape3_file_name', Shape3_file_name)
+    
+    # keep track of which components have finished
+    setmapComponents = []
+    for thisComponent in setmapComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "setmap" ---
+    routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, inputs=inputs, win=win)
+            return
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            routineForceEnded = True
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in setmapComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "setmap" ---
+    for thisComponent in setmapComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    thisExp.addData('setmap.stopped', globalClock.getTime())
+    # the Routine "setmap" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler(nReps=50.0, method='random', 
@@ -427,224 +663,6 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         if thisTrial != None:
             for paramName in thisTrial:
                 globals()[paramName] = thisTrial[paramName]
-        
-        # --- Prepare to start Routine "docount" ---
-        continueRoutine = True
-        # update component parameters for each repeat
-        thisExp.addData('docount.started', globalClock.getTime())
-        # Run 'Begin Routine' code from code
-        p=p+1
-        msg="This is participant number "+str(p)
-        # keep track of which components have finished
-        docountComponents = []
-        for thisComponent in docountComponents:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        frameN = -1
-        
-        # --- Run Routine "docount" ---
-        routineForceEnded = not continueRoutine
-        while continueRoutine:
-            # get current time
-            t = routineTimer.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # check for quit (typically the Esc key)
-            if defaultKeyboard.getKeys(keyList=["escape"]):
-                thisExp.status = FINISHED
-            if thisExp.status == FINISHED or endExpNow:
-                endExperiment(thisExp, inputs=inputs, win=win)
-                return
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                routineForceEnded = True
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in docountComponents:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # --- Ending Routine "docount" ---
-        for thisComponent in docountComponents:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        thisExp.addData('docount.stopped', globalClock.getTime())
-        # the Routine "docount" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
-        
-        # --- Prepare to start Routine "setmap" ---
-        continueRoutine = True
-        # update component parameters for each repeat
-        thisExp.addData('setmap.started', globalClock.getTime())
-        # Run 'Begin Routine' code from set_mapping
-        import random
-        mytasks = ["control", "reward", "valence"]
-        random.shuffle(mytasks)
-        this_task_msg = "Task is: " + mytasks[0]
-        
-        if mytasks[0] == "control":
-        
-            possible_labels=['air', 'earth', 'sky']
-            random.shuffle(possible_labels)
-            Label1_type = possible_labels[0]
-            Label1_type_msg = "Label 1 is: " + Label1_type
-            Label2_type = possible_labels[1]
-            Label2_type_msg = "Label 2 is: " + Label2_type    
-            Label3_type = possible_labels[2]
-            Label3_type_msg = "Label 3 is: " + Label3_type
-        
-            indices=[0,1,2]
-            random.shuffle(indices)
-            possible_file_names =  ['Triangle.bmp', 'Square.bmp', 'Circle.bmp']
-            possible_shape_names = ['Triangle',     'Square',     'Circle']
-        
-            Shape1_shape_name = possible_shape_names[indices[0]] 
-            Shape1_file_name  = possible_file_names[indices[0]] 
-            Shape1_msg = "Shape 1 is: " + Shape1_shape_name
-            Shape2_shape_name = possible_shape_names[indices[1]]
-            Shape2_file_name  = possible_file_names[indices[1]]
-            Shape2_msg = "Shape 2 is: " + Shape2_shape_name
-            Shape3_shape_name = possible_shape_names[indices[2]]
-            Shape3_file_name  = possible_file_names[indices[2]]
-            Shape3_msg = "Shape 3 is: " + Shape3_shape_name
-        
-        elif mytasks[0] == "reward":
-            # then 
-            possible_labels=['high', 'medium', 'none']
-            random.shuffle(possible_labels)
-            Label1_type = possible_labels[0]
-            Label1_type_msg = "Label 1 is: " + Label1_type
-            Label2_type = possible_labels[1]
-            Label2_type_msg = "Label 2 is: " + Label2_type    
-            Label3_type = possible_labels[2]
-            Label3_type_msg = "Label 3 is: " + Label3_type
-        
-            indices=[0,1,2]
-            random.shuffle(indices)
-            possible_file_names =  ['Pentagon.bmp', 'Diamond.bmp', 'Oval.bmp']
-            possible_shape_names = ['Pentagon',     'Diamond',     'Oval']
-        
-            Shape1_shape_name = possible_shape_names[indices[0]] 
-            Shape1_file_name  = possible_file_names[indices[0]] 
-            Shape1_msg = "Shape 1 is: " + Shape1_shape_name
-            Shape2_shape_name = possible_shape_names[indices[1]]
-            Shape2_file_name  = possible_file_names[indices[1]]
-            Shape2_msg = "Shape 2 is: " + Shape2_shape_name
-            Shape3_shape_name = possible_shape_names[indices[2]]
-            Shape3_file_name  = possible_file_names[indices[2]]
-            Shape3_msg = "Shape 3 is: " + Shape3_shape_name
-        
-        elif mytasks[0] == "valence":
-            # then 
-            possible_labels=['happy', 'neutral', 'sad']
-            random.shuffle(possible_labels)
-            Label1_type = possible_labels[0]
-            Label1_type_msg = "Label 1 is: " + Label1_type
-            Label2_type = possible_labels[1]
-            Label2_type_msg = "Label 2 is: " + Label2_type    
-            Label3_type = possible_labels[2]
-            Label3_type_msg = "Label 3 is: " + Label3_type
-        
-            indices=[0,1,2]
-            random.shuffle(indices)
-            possible_file_names =  ['Hexagon.bmp', 'Rectangle.bmp', 'Star.bmp']
-            possible_shape_names = ['Hexagon',     'Rectangle',     'Star']
-        
-            Shape1_shape_name = possible_shape_names[indices[0]] 
-            Shape1_file_name  = possible_file_names[indices[0]] 
-            Shape1_msg = "Shape 1 is: " + Shape1_shape_name
-            Shape2_shape_name = possible_shape_names[indices[1]]
-            Shape2_file_name  = possible_file_names[indices[1]]
-            Shape2_msg = "Shape 2 is: " + Shape2_shape_name
-            Shape3_shape_name = possible_shape_names[indices[2]]
-            Shape3_file_name  = possible_file_names[indices[2]]
-            Shape3_msg = "Shape 3 is: " + Shape3_shape_name
-        
-        #thisExp.addData('resp.rt', 0.8)
-        thisExp.addData('subjectNumber', p)
-        
-        thisExp.addData('task', mytasks[0])
-        
-        thisExp.addData('Label1_type', Label1_type)
-        thisExp.addData('Shape1_shape_name', Shape1_shape_name)
-        thisExp.addData('Shape1_file_name', Shape1_file_name)
-        
-        thisExp.addData('Label2_type', Label2_type)
-        thisExp.addData('Shape2_shape_name', Shape2_shape_name)
-        thisExp.addData('Shape2_file_name', Shape2_file_name)
-        
-        thisExp.addData('Label3_type', Label3_type)
-        thisExp.addData('Shape3_shape_name', Shape3_shape_name)
-        thisExp.addData('Shape3_file_name', Shape3_file_name)
-        
-        # keep track of which components have finished
-        setmapComponents = []
-        for thisComponent in setmapComponents:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        frameN = -1
-        
-        # --- Run Routine "setmap" ---
-        routineForceEnded = not continueRoutine
-        while continueRoutine:
-            # get current time
-            t = routineTimer.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # check for quit (typically the Esc key)
-            if defaultKeyboard.getKeys(keyList=["escape"]):
-                thisExp.status = FINISHED
-            if thisExp.status == FINISHED or endExpNow:
-                endExperiment(thisExp, inputs=inputs, win=win)
-                return
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                routineForceEnded = True
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in setmapComponents:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # --- Ending Routine "setmap" ---
-        for thisComponent in setmapComponents:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        thisExp.addData('setmap.stopped', globalClock.getTime())
-        # the Routine "setmap" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # --- Prepare to start Routine "show" ---
         continueRoutine = True
@@ -1005,6 +1023,143 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             routineTimer.reset()
         else:
             routineTimer.addTime(-0.500000)
+        
+        # --- Prepare to start Routine "one_trial" ---
+        continueRoutine = True
+        # update component parameters for each repeat
+        thisExp.addData('one_trial.started', globalClock.getTime())
+        label_text.setText(Label1_type)
+        shape_image.setImage(Shape1_file_name)
+        trial_dismiss.keys = []
+        trial_dismiss.rt = []
+        _trial_dismiss_allKeys = []
+        # keep track of which components have finished
+        one_trialComponents = [label_text, shape_image, trial_dismiss]
+        for thisComponent in one_trialComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        frameN = -1
+        
+        # --- Run Routine "one_trial" ---
+        routineForceEnded = not continueRoutine
+        while continueRoutine:
+            # get current time
+            t = routineTimer.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            
+            # *label_text* updates
+            
+            # if label_text is starting this frame...
+            if label_text.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                label_text.frameNStart = frameN  # exact frame index
+                label_text.tStart = t  # local t and not account for scr refresh
+                label_text.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(label_text, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'label_text.started')
+                # update status
+                label_text.status = STARTED
+                label_text.setAutoDraw(True)
+            
+            # if label_text is active this frame...
+            if label_text.status == STARTED:
+                # update params
+                pass
+            
+            # *shape_image* updates
+            
+            # if shape_image is starting this frame...
+            if shape_image.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                shape_image.frameNStart = frameN  # exact frame index
+                shape_image.tStart = t  # local t and not account for scr refresh
+                shape_image.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(shape_image, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'shape_image.started')
+                # update status
+                shape_image.status = STARTED
+                shape_image.setAutoDraw(True)
+            
+            # if shape_image is active this frame...
+            if shape_image.status == STARTED:
+                # update params
+                pass
+            
+            # *trial_dismiss* updates
+            waitOnFlip = False
+            
+            # if trial_dismiss is starting this frame...
+            if trial_dismiss.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                trial_dismiss.frameNStart = frameN  # exact frame index
+                trial_dismiss.tStart = t  # local t and not account for scr refresh
+                trial_dismiss.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(trial_dismiss, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'trial_dismiss.started')
+                # update status
+                trial_dismiss.status = STARTED
+                # keyboard checking is just starting
+                waitOnFlip = True
+                win.callOnFlip(trial_dismiss.clock.reset)  # t=0 on next screen flip
+                win.callOnFlip(trial_dismiss.clearEvents, eventType='keyboard')  # clear events on next screen flip
+            if trial_dismiss.status == STARTED and not waitOnFlip:
+                theseKeys = trial_dismiss.getKeys(keyList=['space'], ignoreKeys=["escape"], waitRelease=False)
+                _trial_dismiss_allKeys.extend(theseKeys)
+                if len(_trial_dismiss_allKeys):
+                    trial_dismiss.keys = _trial_dismiss_allKeys[-1].name  # just the last key pressed
+                    trial_dismiss.rt = _trial_dismiss_allKeys[-1].rt
+                    trial_dismiss.duration = _trial_dismiss_allKeys[-1].duration
+                    # a response ends the routine
+                    continueRoutine = False
+            
+            # check for quit (typically the Esc key)
+            if defaultKeyboard.getKeys(keyList=["escape"]):
+                thisExp.status = FINISHED
+            if thisExp.status == FINISHED or endExpNow:
+                endExperiment(thisExp, inputs=inputs, win=win)
+                return
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                routineForceEnded = True
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in one_trialComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # --- Ending Routine "one_trial" ---
+        for thisComponent in one_trialComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        thisExp.addData('one_trial.stopped', globalClock.getTime())
+        # check responses
+        if trial_dismiss.keys in ['', [], None]:  # No response was made
+            trial_dismiss.keys = None
+        trials.addData('trial_dismiss.keys',trial_dismiss.keys)
+        if trial_dismiss.keys != None:  # we had a response
+            trials.addData('trial_dismiss.rt', trial_dismiss.rt)
+            trials.addData('trial_dismiss.duration', trial_dismiss.duration)
+        # the Routine "one_trial" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
         thisExp.nextEntry()
         
         if thisSession is not None:

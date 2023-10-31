@@ -1,0 +1,46 @@
+7.9356 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020195704F40>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020195704FA0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020195704DC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002019CE06E80>, multiSample=False, name='window1', numSamples=2, pos=(530, 140), screen=0, size=array([1500,  800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.9358 	EXP 	window1: mouseVisible = True
+7.9358 	EXP 	window1: backgroundImage = ''
+7.9358 	EXP 	window1: backgroundFit = 'none'
+7.9380 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.9381 	EXP 	window1: recordFrameIntervals = False
+8.0990 	EXP 	window1: recordFrameIntervals = True
+8.2821 	EXP 	Screen (0) actual frame rate measured at 60.14Hz
+8.2821 	EXP 	window1: recordFrameIntervals = False
+8.2822 	EXP 	window1: mouseVisible = True
+8.3899 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+11.1142 	EXP 	sancho-test: status = STARTED
+11.1145 	EXP 	window1: mouseVisible = True
+11.1326 	EXP 	Created label_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.25, italic=False, languageStyle='LTR', name='label_text', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.1327 	EXP 	window1: mouseVisible = True
+11.1477 	EXP 	Created shape_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='shape_image', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+0.0114 	EXP 	Created sequence: random, trialTypes=1, nReps=50, seed=None
+0.0122 	EXP 	New trial (rep=0, index=0): None
+0.0134 	EXP 	window1: recordFrameIntervals = False
+0.0311 	EXP 	window1: recordFrameIntervals = False
+0.5922 	EXP 	label_text: height = 0.25
+0.5922 	EXP 	label_text: height = 0.25
+0.5922 	EXP 	label_text: height = 0.25
+0.5922 	EXP 	label_text: text = 'none'
+0.5922 	EXP 	shape_image: image = 'D.bmp'
+0.5922 	EXP 	label_text: autoDraw = True
+0.5922 	EXP 	shape_image: autoDraw = True
+4.4704 	DATA 	Keypress: space
+4.4867 	EXP 	New trial (rep=1, index=0): None
+4.4874 	EXP 	window1: recordFrameIntervals = False
+4.5011 	EXP 	label_text: autoDraw = False
+4.5011 	EXP 	shape_image: autoDraw = False
+4.5012 	EXP 	window1: recordFrameIntervals = False
+5.0325 	EXP 	label_text: height = 0.25
+5.0325 	EXP 	label_text: height = 0.25
+5.0325 	EXP 	label_text: height = 0.25
+5.0325 	EXP 	label_text: text = 'neutral'
+5.0325 	EXP 	shape_image: image = 'X.bmp'
+5.0325 	EXP 	label_text: autoDraw = True
+5.0325 	EXP 	shape_image: autoDraw = True
+14.0328 	DATA 	Keypress: escape
+14.1641 	EXP 	sancho-test: status = STOPPED
+14.1799 	EXP 	label_text: autoDraw = False
+14.1799 	EXP 	shape_image: autoDraw = False
+14.1800 	EXP 	sancho-test: status = STOPPED
+14.3493 	EXP 	window1: mouseVisible = True

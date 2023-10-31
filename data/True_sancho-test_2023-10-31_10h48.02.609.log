@@ -1,0 +1,108 @@
+7.5614 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023E89BBAD00>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023E89BBACA0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023E89BBAAF0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000023E8A0D06A0>, multiSample=False, name='window1', numSamples=2, pos=(530, 140), screen=0, size=array([1500,  800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.5615 	EXP 	window1: mouseVisible = True
+7.5616 	EXP 	window1: backgroundImage = ''
+7.5616 	EXP 	window1: backgroundFit = 'none'
+7.5638 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.5638 	EXP 	window1: recordFrameIntervals = False
+7.7272 	EXP 	window1: recordFrameIntervals = True
+8.0077 	EXP 	Screen (0) actual frame rate measured at 60.18Hz
+8.0078 	EXP 	window1: recordFrameIntervals = False
+8.0078 	EXP 	window1: mouseVisible = True
+8.1162 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+10.8277 	EXP 	sancho-test: status = STARTED
+10.8281 	EXP 	window1: mouseVisible = True
+10.8481 	EXP 	Created label_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.25, italic=False, languageStyle='LTR', name='label_text', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.8483 	EXP 	window1: mouseVisible = True
+10.8662 	EXP 	Created shape_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='shape_image', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+0.0180 	EXP 	Created sequence: random, trialTypes=1, nReps=50, seed=None
+0.0184 	EXP 	New trial (rep=0, index=0): None
+0.0193 	EXP 	window1: recordFrameIntervals = False
+0.0371 	EXP 	window1: recordFrameIntervals = False
+0.5829 	EXP 	label_text: height = 0.25
+0.5829 	EXP 	label_text: height = 0.25
+0.5829 	EXP 	label_text: height = 0.25
+0.5829 	EXP 	label_text: text = 'happy'
+0.5829 	EXP 	shape_image: image = 'X.bmp'
+0.5829 	EXP 	label_text: autoDraw = True
+0.5829 	EXP 	shape_image: autoDraw = True
+1.8831 	EXP 	New trial (rep=1, index=0): None
+1.8838 	EXP 	window1: recordFrameIntervals = False
+1.8846 	DATA 	Keypress: space
+1.8972 	EXP 	label_text: autoDraw = False
+1.8972 	EXP 	shape_image: autoDraw = False
+1.8973 	EXP 	window1: recordFrameIntervals = False
+2.3955 	EXP 	label_text: height = 0.25
+2.3955 	EXP 	label_text: height = 0.25
+2.3955 	EXP 	label_text: height = 0.25
+2.3955 	EXP 	label_text: text = 'sky'
+2.3955 	EXP 	shape_image: image = 'S.bmp'
+2.3955 	EXP 	label_text: autoDraw = True
+2.3955 	EXP 	shape_image: autoDraw = True
+3.2297 	EXP 	New trial (rep=2, index=0): None
+3.2304 	EXP 	window1: recordFrameIntervals = False
+3.2311 	DATA 	Keypress: space
+3.2444 	EXP 	label_text: autoDraw = False
+3.2444 	EXP 	shape_image: autoDraw = False
+3.2445 	EXP 	window1: recordFrameIntervals = False
+3.7429 	EXP 	label_text: text = 'sky'
+3.7429 	EXP 	shape_image: image = 'T.bmp'
+3.7429 	EXP 	label_text: autoDraw = True
+3.7429 	EXP 	shape_image: autoDraw = True
+4.5270 	EXP 	New trial (rep=3, index=0): None
+4.5279 	EXP 	window1: recordFrameIntervals = False
+4.5286 	DATA 	Keypress: space
+4.5414 	EXP 	label_text: autoDraw = False
+4.5414 	EXP 	shape_image: autoDraw = False
+4.5416 	EXP 	window1: recordFrameIntervals = False
+5.0562 	EXP 	label_text: height = 0.25
+5.0562 	EXP 	label_text: height = 0.25
+5.0562 	EXP 	label_text: height = 0.25
+5.0562 	EXP 	label_text: text = '£0'
+5.0562 	EXP 	shape_image: image = 'P.bmp'
+5.0562 	EXP 	label_text: autoDraw = True
+5.0562 	EXP 	shape_image: autoDraw = True
+7.5202 	EXP 	New trial (rep=4, index=0): None
+7.5209 	EXP 	window1: recordFrameIntervals = False
+7.5216 	DATA 	Keypress: space
+7.5347 	EXP 	label_text: autoDraw = False
+7.5347 	EXP 	shape_image: autoDraw = False
+7.5349 	EXP 	window1: recordFrameIntervals = False
+8.0331 	EXP 	label_text: height = 0.25
+8.0331 	EXP 	label_text: height = 0.25
+8.0331 	EXP 	label_text: height = 0.25
+8.0331 	EXP 	label_text: text = 'earth'
+8.0331 	EXP 	shape_image: image = 'T.bmp'
+8.0331 	EXP 	label_text: autoDraw = True
+8.0331 	EXP 	shape_image: autoDraw = True
+8.8671 	EXP 	New trial (rep=5, index=0): None
+8.8678 	EXP 	window1: recordFrameIntervals = False
+8.8684 	DATA 	Keypress: space
+8.8819 	EXP 	label_text: autoDraw = False
+8.8819 	EXP 	shape_image: autoDraw = False
+8.8821 	EXP 	window1: recordFrameIntervals = False
+9.3799 	EXP 	label_text: height = 0.25
+9.3799 	EXP 	label_text: height = 0.25
+9.3799 	EXP 	label_text: height = 0.25
+9.3799 	EXP 	label_text: text = '£0'
+9.3799 	EXP 	shape_image: image = 'P.bmp'
+9.3983 	EXP 	label_text: autoDraw = True
+9.3983 	EXP 	shape_image: autoDraw = True
+15.0035 	EXP 	New trial (rep=6, index=0): None
+15.0042 	EXP 	window1: recordFrameIntervals = False
+15.0049 	DATA 	Keypress: space
+15.0183 	EXP 	label_text: autoDraw = False
+15.0183 	EXP 	shape_image: autoDraw = False
+15.0184 	EXP 	window1: recordFrameIntervals = False
+15.5162 	EXP 	label_text: height = 0.25
+15.5162 	EXP 	label_text: height = 0.25
+15.5162 	EXP 	label_text: height = 0.25
+15.5162 	EXP 	label_text: text = 'sky'
+15.5162 	EXP 	shape_image: image = 'C.bmp'
+15.5340 	EXP 	label_text: autoDraw = True
+15.5340 	EXP 	shape_image: autoDraw = True
+17.0663 	DATA 	Keypress: escape
+17.2311 	EXP 	sancho-test: status = STOPPED
+17.2467 	EXP 	label_text: autoDraw = False
+17.2467 	EXP 	shape_image: autoDraw = False
+17.2468 	EXP 	sancho-test: status = STOPPED
+17.4228 	EXP 	window1: mouseVisible = True
