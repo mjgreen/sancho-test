@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.2.3),
-    on October 31, 2023, at 10:51
+    on November 14, 2023, at 11:18
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -10,6 +10,10 @@ If you publish work using this script the most relevant publication is:
         https://doi.org/10.3758/s13428-018-01193-y
 
 """
+
+import psychopy
+psychopy.useVersion('2023.2.3')
+
 
 # --- Import packages ---
 from psychopy import locale_setup
@@ -319,7 +323,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "setmap" ---
     
-    # --- Initialize components for Routine "show" ---
+    # --- Initialize components for Routine "testShow" ---
     which_participant = visual.TextStim(win=win, name='which_participant',
         text='',
         font='Open Sans',
@@ -387,6 +391,8 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "inter_trial_interval" ---
     ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+    
+    # --- Initialize components for Routine "match_or_mismatch_this_trial" ---
     
     # --- Initialize components for Routine "one_trial" ---
     label_text = visual.TextStim(win=win, name='label_text',
@@ -635,6 +641,290 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     # the Routine "setmap" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
+    # --- Prepare to start Routine "testShow" ---
+    continueRoutine = True
+    # update component parameters for each repeat
+    thisExp.addData('testShow.started', globalClock.getTime())
+    which_participant.setText(msg)
+    put_task.setText(this_task_msg)
+    mylabel1.setText(Label1_type_msg)
+    myshape1.setText(Shape1_msg)
+    mylabel2.setText(Label2_type_msg)
+    myshape2.setText(Shape2_msg)
+    mylabel3.setText(Label3_type_msg)
+    myshape3.setText(Shape3_msg)
+    key_resp.keys = []
+    key_resp.rt = []
+    _key_resp_allKeys = []
+    # keep track of which components have finished
+    testShowComponents = [which_participant, put_task, mylabel1, myshape1, mylabel2, myshape2, mylabel3, myshape3, key_resp, press_space]
+    for thisComponent in testShowComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "testShow" ---
+    routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *which_participant* updates
+        
+        # if which_participant is starting this frame...
+        if which_participant.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            which_participant.frameNStart = frameN  # exact frame index
+            which_participant.tStart = t  # local t and not account for scr refresh
+            which_participant.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(which_participant, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'which_participant.started')
+            # update status
+            which_participant.status = STARTED
+            which_participant.setAutoDraw(True)
+        
+        # if which_participant is active this frame...
+        if which_participant.status == STARTED:
+            # update params
+            pass
+        
+        # *put_task* updates
+        
+        # if put_task is starting this frame...
+        if put_task.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            put_task.frameNStart = frameN  # exact frame index
+            put_task.tStart = t  # local t and not account for scr refresh
+            put_task.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(put_task, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'put_task.started')
+            # update status
+            put_task.status = STARTED
+            put_task.setAutoDraw(True)
+        
+        # if put_task is active this frame...
+        if put_task.status == STARTED:
+            # update params
+            pass
+        
+        # *mylabel1* updates
+        
+        # if mylabel1 is starting this frame...
+        if mylabel1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            mylabel1.frameNStart = frameN  # exact frame index
+            mylabel1.tStart = t  # local t and not account for scr refresh
+            mylabel1.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(mylabel1, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'mylabel1.started')
+            # update status
+            mylabel1.status = STARTED
+            mylabel1.setAutoDraw(True)
+        
+        # if mylabel1 is active this frame...
+        if mylabel1.status == STARTED:
+            # update params
+            pass
+        
+        # *myshape1* updates
+        
+        # if myshape1 is starting this frame...
+        if myshape1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            myshape1.frameNStart = frameN  # exact frame index
+            myshape1.tStart = t  # local t and not account for scr refresh
+            myshape1.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(myshape1, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'myshape1.started')
+            # update status
+            myshape1.status = STARTED
+            myshape1.setAutoDraw(True)
+        
+        # if myshape1 is active this frame...
+        if myshape1.status == STARTED:
+            # update params
+            pass
+        
+        # *mylabel2* updates
+        
+        # if mylabel2 is starting this frame...
+        if mylabel2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            mylabel2.frameNStart = frameN  # exact frame index
+            mylabel2.tStart = t  # local t and not account for scr refresh
+            mylabel2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(mylabel2, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'mylabel2.started')
+            # update status
+            mylabel2.status = STARTED
+            mylabel2.setAutoDraw(True)
+        
+        # if mylabel2 is active this frame...
+        if mylabel2.status == STARTED:
+            # update params
+            pass
+        
+        # *myshape2* updates
+        
+        # if myshape2 is starting this frame...
+        if myshape2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            myshape2.frameNStart = frameN  # exact frame index
+            myshape2.tStart = t  # local t and not account for scr refresh
+            myshape2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(myshape2, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'myshape2.started')
+            # update status
+            myshape2.status = STARTED
+            myshape2.setAutoDraw(True)
+        
+        # if myshape2 is active this frame...
+        if myshape2.status == STARTED:
+            # update params
+            pass
+        
+        # *mylabel3* updates
+        
+        # if mylabel3 is starting this frame...
+        if mylabel3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            mylabel3.frameNStart = frameN  # exact frame index
+            mylabel3.tStart = t  # local t and not account for scr refresh
+            mylabel3.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(mylabel3, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'mylabel3.started')
+            # update status
+            mylabel3.status = STARTED
+            mylabel3.setAutoDraw(True)
+        
+        # if mylabel3 is active this frame...
+        if mylabel3.status == STARTED:
+            # update params
+            pass
+        
+        # *myshape3* updates
+        
+        # if myshape3 is starting this frame...
+        if myshape3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            myshape3.frameNStart = frameN  # exact frame index
+            myshape3.tStart = t  # local t and not account for scr refresh
+            myshape3.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(myshape3, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'myshape3.started')
+            # update status
+            myshape3.status = STARTED
+            myshape3.setAutoDraw(True)
+        
+        # if myshape3 is active this frame...
+        if myshape3.status == STARTED:
+            # update params
+            pass
+        
+        # *key_resp* updates
+        waitOnFlip = False
+        
+        # if key_resp is starting this frame...
+        if key_resp.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            key_resp.frameNStart = frameN  # exact frame index
+            key_resp.tStart = t  # local t and not account for scr refresh
+            key_resp.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(key_resp, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'key_resp.started')
+            # update status
+            key_resp.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if key_resp.status == STARTED and not waitOnFlip:
+            theseKeys = key_resp.getKeys(keyList=['y','n','left','right','space','enter'], ignoreKeys=["escape"], waitRelease=False)
+            _key_resp_allKeys.extend(theseKeys)
+            if len(_key_resp_allKeys):
+                key_resp.keys = _key_resp_allKeys[-1].name  # just the last key pressed
+                key_resp.rt = _key_resp_allKeys[-1].rt
+                key_resp.duration = _key_resp_allKeys[-1].duration
+                # a response ends the routine
+                continueRoutine = False
+        
+        # *press_space* updates
+        
+        # if press_space is starting this frame...
+        if press_space.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            press_space.frameNStart = frameN  # exact frame index
+            press_space.tStart = t  # local t and not account for scr refresh
+            press_space.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(press_space, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'press_space.started')
+            # update status
+            press_space.status = STARTED
+            press_space.setAutoDraw(True)
+        
+        # if press_space is active this frame...
+        if press_space.status == STARTED:
+            # update params
+            pass
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, inputs=inputs, win=win)
+            return
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            routineForceEnded = True
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in testShowComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "testShow" ---
+    for thisComponent in testShowComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    thisExp.addData('testShow.stopped', globalClock.getTime())
+    # check responses
+    if key_resp.keys in ['', [], None]:  # No response was made
+        key_resp.keys = None
+    thisExp.addData('key_resp.keys',key_resp.keys)
+    if key_resp.keys != None:  # we had a response
+        thisExp.addData('key_resp.rt', key_resp.rt)
+        thisExp.addData('key_resp.duration', key_resp.duration)
+    thisExp.nextEntry()
+    # the Routine "testShow" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
+    
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler(nReps=50.0, method='random', 
         extraInfo=expInfo, originPath=-1,
@@ -663,289 +953,6 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         if thisTrial != None:
             for paramName in thisTrial:
                 globals()[paramName] = thisTrial[paramName]
-        
-        # --- Prepare to start Routine "show" ---
-        continueRoutine = True
-        # update component parameters for each repeat
-        thisExp.addData('show.started', globalClock.getTime())
-        which_participant.setText(msg)
-        put_task.setText(this_task_msg)
-        mylabel1.setText(Label1_type_msg)
-        myshape1.setText(Shape1_msg)
-        mylabel2.setText(Label2_type_msg)
-        myshape2.setText(Shape2_msg)
-        mylabel3.setText(Label3_type_msg)
-        myshape3.setText(Shape3_msg)
-        key_resp.keys = []
-        key_resp.rt = []
-        _key_resp_allKeys = []
-        # keep track of which components have finished
-        showComponents = [which_participant, put_task, mylabel1, myshape1, mylabel2, myshape2, mylabel3, myshape3, key_resp, press_space]
-        for thisComponent in showComponents:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        frameN = -1
-        
-        # --- Run Routine "show" ---
-        routineForceEnded = not continueRoutine
-        while continueRoutine:
-            # get current time
-            t = routineTimer.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *which_participant* updates
-            
-            # if which_participant is starting this frame...
-            if which_participant.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                which_participant.frameNStart = frameN  # exact frame index
-                which_participant.tStart = t  # local t and not account for scr refresh
-                which_participant.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(which_participant, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'which_participant.started')
-                # update status
-                which_participant.status = STARTED
-                which_participant.setAutoDraw(True)
-            
-            # if which_participant is active this frame...
-            if which_participant.status == STARTED:
-                # update params
-                pass
-            
-            # *put_task* updates
-            
-            # if put_task is starting this frame...
-            if put_task.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                put_task.frameNStart = frameN  # exact frame index
-                put_task.tStart = t  # local t and not account for scr refresh
-                put_task.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(put_task, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'put_task.started')
-                # update status
-                put_task.status = STARTED
-                put_task.setAutoDraw(True)
-            
-            # if put_task is active this frame...
-            if put_task.status == STARTED:
-                # update params
-                pass
-            
-            # *mylabel1* updates
-            
-            # if mylabel1 is starting this frame...
-            if mylabel1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                mylabel1.frameNStart = frameN  # exact frame index
-                mylabel1.tStart = t  # local t and not account for scr refresh
-                mylabel1.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(mylabel1, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'mylabel1.started')
-                # update status
-                mylabel1.status = STARTED
-                mylabel1.setAutoDraw(True)
-            
-            # if mylabel1 is active this frame...
-            if mylabel1.status == STARTED:
-                # update params
-                pass
-            
-            # *myshape1* updates
-            
-            # if myshape1 is starting this frame...
-            if myshape1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                myshape1.frameNStart = frameN  # exact frame index
-                myshape1.tStart = t  # local t and not account for scr refresh
-                myshape1.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(myshape1, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'myshape1.started')
-                # update status
-                myshape1.status = STARTED
-                myshape1.setAutoDraw(True)
-            
-            # if myshape1 is active this frame...
-            if myshape1.status == STARTED:
-                # update params
-                pass
-            
-            # *mylabel2* updates
-            
-            # if mylabel2 is starting this frame...
-            if mylabel2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                mylabel2.frameNStart = frameN  # exact frame index
-                mylabel2.tStart = t  # local t and not account for scr refresh
-                mylabel2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(mylabel2, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'mylabel2.started')
-                # update status
-                mylabel2.status = STARTED
-                mylabel2.setAutoDraw(True)
-            
-            # if mylabel2 is active this frame...
-            if mylabel2.status == STARTED:
-                # update params
-                pass
-            
-            # *myshape2* updates
-            
-            # if myshape2 is starting this frame...
-            if myshape2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                myshape2.frameNStart = frameN  # exact frame index
-                myshape2.tStart = t  # local t and not account for scr refresh
-                myshape2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(myshape2, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'myshape2.started')
-                # update status
-                myshape2.status = STARTED
-                myshape2.setAutoDraw(True)
-            
-            # if myshape2 is active this frame...
-            if myshape2.status == STARTED:
-                # update params
-                pass
-            
-            # *mylabel3* updates
-            
-            # if mylabel3 is starting this frame...
-            if mylabel3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                mylabel3.frameNStart = frameN  # exact frame index
-                mylabel3.tStart = t  # local t and not account for scr refresh
-                mylabel3.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(mylabel3, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'mylabel3.started')
-                # update status
-                mylabel3.status = STARTED
-                mylabel3.setAutoDraw(True)
-            
-            # if mylabel3 is active this frame...
-            if mylabel3.status == STARTED:
-                # update params
-                pass
-            
-            # *myshape3* updates
-            
-            # if myshape3 is starting this frame...
-            if myshape3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                myshape3.frameNStart = frameN  # exact frame index
-                myshape3.tStart = t  # local t and not account for scr refresh
-                myshape3.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(myshape3, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'myshape3.started')
-                # update status
-                myshape3.status = STARTED
-                myshape3.setAutoDraw(True)
-            
-            # if myshape3 is active this frame...
-            if myshape3.status == STARTED:
-                # update params
-                pass
-            
-            # *key_resp* updates
-            waitOnFlip = False
-            
-            # if key_resp is starting this frame...
-            if key_resp.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                key_resp.frameNStart = frameN  # exact frame index
-                key_resp.tStart = t  # local t and not account for scr refresh
-                key_resp.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(key_resp, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'key_resp.started')
-                # update status
-                key_resp.status = STARTED
-                # keyboard checking is just starting
-                waitOnFlip = True
-                win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
-                win.callOnFlip(key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
-            if key_resp.status == STARTED and not waitOnFlip:
-                theseKeys = key_resp.getKeys(keyList=['y','n','left','right','space','enter'], ignoreKeys=["escape"], waitRelease=False)
-                _key_resp_allKeys.extend(theseKeys)
-                if len(_key_resp_allKeys):
-                    key_resp.keys = _key_resp_allKeys[-1].name  # just the last key pressed
-                    key_resp.rt = _key_resp_allKeys[-1].rt
-                    key_resp.duration = _key_resp_allKeys[-1].duration
-                    # a response ends the routine
-                    continueRoutine = False
-            
-            # *press_space* updates
-            
-            # if press_space is starting this frame...
-            if press_space.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                press_space.frameNStart = frameN  # exact frame index
-                press_space.tStart = t  # local t and not account for scr refresh
-                press_space.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(press_space, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'press_space.started')
-                # update status
-                press_space.status = STARTED
-                press_space.setAutoDraw(True)
-            
-            # if press_space is active this frame...
-            if press_space.status == STARTED:
-                # update params
-                pass
-            
-            # check for quit (typically the Esc key)
-            if defaultKeyboard.getKeys(keyList=["escape"]):
-                thisExp.status = FINISHED
-            if thisExp.status == FINISHED or endExpNow:
-                endExperiment(thisExp, inputs=inputs, win=win)
-                return
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                routineForceEnded = True
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in showComponents:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # --- Ending Routine "show" ---
-        for thisComponent in showComponents:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        thisExp.addData('show.stopped', globalClock.getTime())
-        # check responses
-        if key_resp.keys in ['', [], None]:  # No response was made
-            key_resp.keys = None
-        trials.addData('key_resp.keys',key_resp.keys)
-        if key_resp.keys != None:  # we had a response
-            trials.addData('key_resp.rt', key_resp.rt)
-            trials.addData('key_resp.duration', key_resp.duration)
-        # the Routine "show" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # --- Prepare to start Routine "inter_trial_interval" ---
         continueRoutine = True
@@ -1023,6 +1030,63 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             routineTimer.reset()
         else:
             routineTimer.addTime(-0.500000)
+        
+        # --- Prepare to start Routine "match_or_mismatch_this_trial" ---
+        continueRoutine = True
+        # update component parameters for each repeat
+        thisExp.addData('match_or_mismatch_this_trial.started', globalClock.getTime())
+        # keep track of which components have finished
+        match_or_mismatch_this_trialComponents = []
+        for thisComponent in match_or_mismatch_this_trialComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        frameN = -1
+        
+        # --- Run Routine "match_or_mismatch_this_trial" ---
+        routineForceEnded = not continueRoutine
+        while continueRoutine:
+            # get current time
+            t = routineTimer.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            
+            # check for quit (typically the Esc key)
+            if defaultKeyboard.getKeys(keyList=["escape"]):
+                thisExp.status = FINISHED
+            if thisExp.status == FINISHED or endExpNow:
+                endExperiment(thisExp, inputs=inputs, win=win)
+                return
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                routineForceEnded = True
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in match_or_mismatch_this_trialComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # --- Ending Routine "match_or_mismatch_this_trial" ---
+        for thisComponent in match_or_mismatch_this_trialComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        thisExp.addData('match_or_mismatch_this_trial.stopped', globalClock.getTime())
+        # the Routine "match_or_mismatch_this_trial" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
         
         # --- Prepare to start Routine "one_trial" ---
         continueRoutine = True

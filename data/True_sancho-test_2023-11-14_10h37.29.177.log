@@ -1,0 +1,20 @@
+26.4350 	DATA 	Mouse: Left button down, pos=(425,582)
+26.4352 	DATA 	Mouse:  Left button up, pos=(425,582)
+60.9033 	WARNING 	t of last frame was 4303.81ms (=1/0)
+65.2103 	WARNING 	t of last frame was 4307.00ms (=1/0)
+69.5172 	WARNING 	t of last frame was 4306.92ms (=1/0)
+73.8295 	WARNING 	t of last frame was 4312.29ms (=1/0)
+78.1311 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+121.2038 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021BFC20AF40>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021BFC20AEE0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021BFC20AD00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021BFC75CD30>, multiSample=False, name='window1', numSamples=2, pos=(530, 140), screen=0, size=array([1500,  800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+121.2039 	EXP 	window1: mouseVisible = True
+121.2040 	EXP 	window1: backgroundImage = ''
+121.2040 	EXP 	window1: backgroundFit = 'none'
+121.2093 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+121.2093 	EXP 	window1: recordFrameIntervals = False
+164.2911 	EXP 	window1: recordFrameIntervals = True
+246.1620 	EXP 	Screen (0) actual frame rate measured at 0.23Hz
+246.1620 	EXP 	window1: recordFrameIntervals = False
+246.1621 	EXP 	window1: mouseVisible = True
+246.3592 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+249.8058 	EXP 	sancho-test: status = STARTED
+249.9513 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,23 @@
+38.2140 	DATA 	Mouse: Left button down, pos=(213,560)
+38.2147 	DATA 	Mouse:  Left button up, pos=(3,365)
+42.5285 	DATA 	Mouse: Left button down, pos=(747,250)
+42.5292 	DATA 	Mouse:  Left button up, pos=(747,250)
+51.1551 	DATA 	Keypress: escape
+72.7197 	WARNING 	t of last frame was 4310.05ms (=1/0)
+77.0392 	WARNING 	t of last frame was 4319.56ms (=1/0)
+81.3463 	WARNING 	t of last frame was 4307.06ms (=1/0)
+85.6533 	WARNING 	t of last frame was 4307.03ms (=1/0)
+89.9672 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+176.1222 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000172E986AF10>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000172E986AEB0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000172E986ACD0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000172E9D7DCA0>, multiSample=False, name='window1', numSamples=2, pos=(530, 140), screen=0, size=array([1500,  800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+176.1224 	EXP 	window1: mouseVisible = True
+176.1224 	EXP 	window1: backgroundImage = ''
+176.1225 	EXP 	window1: backgroundFit = 'none'
+176.1277 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+176.1277 	EXP 	window1: recordFrameIntervals = False
+219.2096 	EXP 	window1: recordFrameIntervals = True
+266.5879 	EXP 	Screen (0) actual frame rate measured at 0.23Hz
+266.5880 	EXP 	window1: recordFrameIntervals = False
+266.5881 	EXP 	window1: mouseVisible = True
+266.7201 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+269.4274 	EXP 	sancho-test: status = STARTED
+269.5704 	EXP 	window1: mouseVisible = True
