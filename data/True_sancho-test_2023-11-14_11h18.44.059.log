@@ -1,0 +1,359 @@
+9.4465 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002B1B7080C10>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002B1B7080BB0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002B1B70809D0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002B1B74DBA00>, multiSample=False, name='window1', numSamples=2, pos=(530, 140), screen=0, size=array([1500,  800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.4466 	EXP 	window1: mouseVisible = True
+9.4466 	EXP 	window1: backgroundImage = ''
+9.4466 	EXP 	window1: backgroundFit = 'none'
+9.4487 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.4488 	EXP 	window1: recordFrameIntervals = False
+9.6124 	EXP 	window1: recordFrameIntervals = True
+9.7955 	EXP 	Screen (0) actual frame rate measured at 60.12Hz
+9.7955 	EXP 	window1: recordFrameIntervals = False
+9.7955 	EXP 	window1: mouseVisible = True
+9.9045 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+13.2628 	EXP 	sancho-test: status = STARTED
+13.2632 	EXP 	window1: mouseVisible = True
+13.3380 	EXP 	Created which_participant = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='which_participant', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3381 	EXP 	window1: mouseVisible = True
+13.3397 	EXP 	Created put_task = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='put_task', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3398 	EXP 	window1: mouseVisible = True
+13.3413 	EXP 	Created mylabel1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='mylabel1', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3414 	EXP 	window1: mouseVisible = True
+13.3430 	EXP 	Created myshape1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='myshape1', opacity=1.0, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3430 	EXP 	window1: mouseVisible = True
+13.3445 	EXP 	Created mylabel2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='mylabel2', opacity=1.0, ori=0.0, pos=array([-0.5, -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3446 	EXP 	window1: mouseVisible = True
+13.3461 	EXP 	Created myshape2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='myshape2', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3462 	EXP 	window1: mouseVisible = True
+13.3477 	EXP 	Created mylabel3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='mylabel3', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3478 	EXP 	window1: mouseVisible = True
+13.3493 	EXP 	Created myshape3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='myshape3', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3495 	EXP 	window1: mouseVisible = True
+13.5288 	EXP 	Created press_space = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='press_space', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.5290 	EXP 	window1: mouseVisible = True
+13.5311 	EXP 	Created label_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.25, italic=False, languageStyle='LTR', name='label_text', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.5312 	EXP 	window1: mouseVisible = True
+13.5541 	EXP 	Created shape_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='shape_image', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+0.0992 	EXP 	which_participant: height = 0.05
+0.0992 	EXP 	which_participant: height = 0.05
+0.0992 	EXP 	which_participant: height = 0.05
+0.0992 	EXP 	which_participant: text = 'This is participant number 1'
+0.0992 	EXP 	put_task: height = 0.05
+0.0992 	EXP 	put_task: height = 0.05
+0.0992 	EXP 	put_task: height = 0.05
+0.0992 	EXP 	put_task: text = 'Task is: valence'
+0.0992 	EXP 	mylabel1: height = 0.05
+0.0992 	EXP 	mylabel1: height = 0.05
+0.0992 	EXP 	mylabel1: height = 0.05
+0.0992 	EXP 	mylabel1: text = 'Label 1 is: sad'
+0.0992 	EXP 	myshape1: height = 0.05
+0.0992 	EXP 	myshape1: height = 0.05
+0.0992 	EXP 	myshape1: height = 0.05
+0.0992 	EXP 	myshape1: text = 'Shape 1 is: Hexagon'
+0.0992 	EXP 	mylabel2: height = 0.05
+0.0992 	EXP 	mylabel2: height = 0.05
+0.0992 	EXP 	mylabel2: height = 0.05
+0.0992 	EXP 	mylabel2: text = 'Label 2 is: neutral'
+0.0992 	EXP 	myshape2: height = 0.05
+0.0992 	EXP 	myshape2: height = 0.05
+0.0992 	EXP 	myshape2: height = 0.05
+0.0992 	EXP 	myshape2: text = 'Shape 2 is: Rectangle'
+0.0992 	EXP 	mylabel3: height = 0.05
+0.0992 	EXP 	mylabel3: height = 0.05
+0.0992 	EXP 	mylabel3: height = 0.05
+0.0992 	EXP 	mylabel3: text = 'Label 3 is: happy'
+0.0992 	EXP 	myshape3: height = 0.05
+0.0992 	EXP 	myshape3: height = 0.05
+0.0992 	EXP 	myshape3: height = 0.05
+0.0992 	EXP 	myshape3: text = 'Shape 3 is: Star'
+0.0992 	EXP 	which_participant: autoDraw = True
+0.0992 	EXP 	put_task: autoDraw = True
+0.0992 	EXP 	mylabel1: autoDraw = True
+0.0992 	EXP 	myshape1: autoDraw = True
+0.0992 	EXP 	mylabel2: autoDraw = True
+0.0992 	EXP 	myshape2: autoDraw = True
+0.0992 	EXP 	mylabel3: autoDraw = True
+0.0992 	EXP 	myshape3: autoDraw = True
+0.0992 	EXP 	press_space: autoDraw = True
+36.5773 	DATA 	Mouse: Left button down, pos=(641,571)
+36.6930 	DATA 	Mouse:  Left button up, pos=(641,571)
+37.4923 	DATA 	Keypress: down
+38.4690 	EXP 	Created sequence: random, trialTypes=1, nReps=50, seed=None
+38.4694 	EXP 	New trial (rep=0, index=0): None
+38.4695 	EXP 	window1: recordFrameIntervals = False
+38.4701 	DATA 	Keypress: space
+38.4810 	EXP 	which_participant: autoDraw = False
+38.4810 	EXP 	put_task: autoDraw = False
+38.4810 	EXP 	mylabel1: autoDraw = False
+38.4810 	EXP 	myshape1: autoDraw = False
+38.4810 	EXP 	mylabel2: autoDraw = False
+38.4810 	EXP 	myshape2: autoDraw = False
+38.4810 	EXP 	mylabel3: autoDraw = False
+38.4810 	EXP 	myshape3: autoDraw = False
+38.4810 	EXP 	press_space: autoDraw = False
+38.4812 	EXP 	window1: recordFrameIntervals = False
+38.9960 	EXP 	label_text: height = 0.25
+38.9960 	EXP 	label_text: height = 0.25
+38.9960 	EXP 	label_text: height = 0.25
+38.9960 	EXP 	label_text: text = 'sad'
+38.9960 	EXP 	shape_image: image = 'H.bmp'
+38.9960 	EXP 	label_text: autoDraw = True
+38.9960 	EXP 	shape_image: autoDraw = True
+1178.2986 	EXP 	New trial (rep=1, index=0): None
+1178.2987 	EXP 	window1: recordFrameIntervals = False
+1178.3117 	EXP 	label_text: autoDraw = False
+1178.3117 	EXP 	shape_image: autoDraw = False
+1178.3119 	EXP 	window1: recordFrameIntervals = False
+1178.8108 	EXP 	label_text: text = 'sad'
+1178.8108 	EXP 	shape_image: image = 'H.bmp'
+1178.8108 	EXP 	label_text: autoDraw = True
+1178.8108 	EXP 	shape_image: autoDraw = True
+1232.5101 	EXP 	New trial (rep=2, index=0): None
+1232.5102 	EXP 	window1: recordFrameIntervals = False
+1232.5257 	EXP 	label_text: autoDraw = False
+1232.5257 	EXP 	shape_image: autoDraw = False
+1232.5258 	EXP 	window1: recordFrameIntervals = False
+1233.0074 	EXP 	label_text: text = 'sad'
+1233.0074 	EXP 	shape_image: image = 'H.bmp'
+1233.0074 	EXP 	label_text: autoDraw = True
+1233.0074 	EXP 	shape_image: autoDraw = True
+1244.1346 	EXP 	New trial (rep=3, index=0): None
+1244.1347 	EXP 	window1: recordFrameIntervals = False
+1244.1493 	EXP 	label_text: autoDraw = False
+1244.1493 	EXP 	shape_image: autoDraw = False
+1244.1495 	EXP 	window1: recordFrameIntervals = False
+1244.6314 	EXP 	label_text: text = 'sad'
+1244.6314 	EXP 	shape_image: image = 'H.bmp'
+1244.6314 	EXP 	label_text: autoDraw = True
+1244.6314 	EXP 	shape_image: autoDraw = True
+1247.3774 	EXP 	New trial (rep=4, index=0): None
+1247.3774 	EXP 	window1: recordFrameIntervals = False
+1247.3928 	EXP 	label_text: autoDraw = False
+1247.3928 	EXP 	shape_image: autoDraw = False
+1247.3930 	EXP 	window1: recordFrameIntervals = False
+1247.8911 	EXP 	label_text: text = 'sad'
+1247.8911 	EXP 	shape_image: image = 'H.bmp'
+1247.8911 	EXP 	label_text: autoDraw = True
+1247.8911 	EXP 	shape_image: autoDraw = True
+1249.8576 	EXP 	New trial (rep=5, index=0): None
+1249.8578 	EXP 	window1: recordFrameIntervals = False
+1249.8707 	EXP 	label_text: autoDraw = False
+1249.8707 	EXP 	shape_image: autoDraw = False
+1249.8709 	EXP 	window1: recordFrameIntervals = False
+1250.3690 	EXP 	label_text: text = 'sad'
+1250.3690 	EXP 	shape_image: image = 'H.bmp'
+1250.3690 	EXP 	label_text: autoDraw = True
+1250.3690 	EXP 	shape_image: autoDraw = True
+1251.2690 	EXP 	New trial (rep=6, index=0): None
+1251.2691 	EXP 	window1: recordFrameIntervals = False
+1251.2840 	EXP 	label_text: autoDraw = False
+1251.2840 	EXP 	shape_image: autoDraw = False
+1251.2842 	EXP 	window1: recordFrameIntervals = False
+1251.7830 	EXP 	label_text: text = 'sad'
+1251.7830 	EXP 	shape_image: image = 'H.bmp'
+1251.7830 	EXP 	label_text: autoDraw = True
+1251.7830 	EXP 	shape_image: autoDraw = True
+1252.2502 	EXP 	New trial (rep=7, index=0): None
+1252.2503 	EXP 	window1: recordFrameIntervals = False
+1252.2645 	EXP 	label_text: autoDraw = False
+1252.2645 	EXP 	shape_image: autoDraw = False
+1252.2647 	EXP 	window1: recordFrameIntervals = False
+1252.7471 	EXP 	label_text: text = 'sad'
+1252.7471 	EXP 	shape_image: image = 'H.bmp'
+1252.7471 	EXP 	label_text: autoDraw = True
+1252.7471 	EXP 	shape_image: autoDraw = True
+1253.9959 	EXP 	New trial (rep=8, index=0): None
+1253.9960 	EXP 	window1: recordFrameIntervals = False
+1254.0115 	EXP 	label_text: autoDraw = False
+1254.0115 	EXP 	shape_image: autoDraw = False
+1254.0118 	EXP 	window1: recordFrameIntervals = False
+1254.4934 	EXP 	label_text: text = 'sad'
+1254.4934 	EXP 	shape_image: image = 'H.bmp'
+1254.4934 	EXP 	label_text: autoDraw = True
+1254.4934 	EXP 	shape_image: autoDraw = True
+1254.6114 	EXP 	New trial (rep=9, index=0): None
+1254.6115 	EXP 	window1: recordFrameIntervals = False
+1254.6272 	EXP 	label_text: autoDraw = False
+1254.6272 	EXP 	shape_image: autoDraw = False
+1254.6273 	EXP 	window1: recordFrameIntervals = False
+1255.1252 	EXP 	label_text: text = 'sad'
+1255.1252 	EXP 	shape_image: image = 'H.bmp'
+1255.1252 	EXP 	label_text: autoDraw = True
+1255.1252 	EXP 	shape_image: autoDraw = True
+1256.0107 	EXP 	New trial (rep=10, index=0): None
+1256.0109 	EXP 	window1: recordFrameIntervals = False
+1256.0237 	EXP 	label_text: autoDraw = False
+1256.0237 	EXP 	shape_image: autoDraw = False
+1256.0239 	EXP 	window1: recordFrameIntervals = False
+1256.5224 	EXP 	label_text: text = 'sad'
+1256.5224 	EXP 	shape_image: image = 'H.bmp'
+1256.5224 	EXP 	label_text: autoDraw = True
+1256.5224 	EXP 	shape_image: autoDraw = True
+1257.1416 	EXP 	New trial (rep=11, index=0): None
+1257.1417 	EXP 	window1: recordFrameIntervals = False
+1257.1547 	EXP 	label_text: autoDraw = False
+1257.1547 	EXP 	shape_image: autoDraw = False
+1257.1549 	EXP 	window1: recordFrameIntervals = False
+1257.6528 	EXP 	label_text: text = 'sad'
+1257.6528 	EXP 	shape_image: image = 'H.bmp'
+1257.6528 	EXP 	label_text: autoDraw = True
+1257.6528 	EXP 	shape_image: autoDraw = True
+1267.0006 	EXP 	New trial (rep=12, index=0): None
+1267.0007 	EXP 	window1: recordFrameIntervals = False
+1267.0165 	EXP 	label_text: autoDraw = False
+1267.0165 	EXP 	shape_image: autoDraw = False
+1267.0166 	EXP 	window1: recordFrameIntervals = False
+1267.4978 	EXP 	label_text: text = 'sad'
+1267.4978 	EXP 	shape_image: image = 'H.bmp'
+1267.4978 	EXP 	label_text: autoDraw = True
+1267.4978 	EXP 	shape_image: autoDraw = True
+1268.0176 	EXP 	New trial (rep=13, index=0): None
+1268.0177 	EXP 	window1: recordFrameIntervals = False
+1268.0306 	EXP 	label_text: autoDraw = False
+1268.0306 	EXP 	shape_image: autoDraw = False
+1268.0309 	EXP 	window1: recordFrameIntervals = False
+1268.5290 	EXP 	label_text: text = 'sad'
+1268.5290 	EXP 	shape_image: image = 'H.bmp'
+1268.5290 	EXP 	label_text: autoDraw = True
+1268.5290 	EXP 	shape_image: autoDraw = True
+1268.5856 	EXP 	New trial (rep=14, index=0): None
+1268.5859 	EXP 	window1: recordFrameIntervals = False
+1268.5957 	EXP 	label_text: autoDraw = False
+1268.5957 	EXP 	shape_image: autoDraw = False
+1268.5960 	EXP 	window1: recordFrameIntervals = False
+1269.0943 	EXP 	label_text: text = 'sad'
+1269.0943 	EXP 	shape_image: image = 'H.bmp'
+1269.0943 	EXP 	label_text: autoDraw = True
+1269.0943 	EXP 	shape_image: autoDraw = True
+1309.4079 	EXP 	New trial (rep=15, index=0): None
+1309.4080 	EXP 	window1: recordFrameIntervals = False
+1309.4219 	EXP 	label_text: autoDraw = False
+1309.4219 	EXP 	shape_image: autoDraw = False
+1309.4222 	EXP 	window1: recordFrameIntervals = False
+1309.9208 	EXP 	label_text: text = 'sad'
+1309.9208 	EXP 	shape_image: image = 'H.bmp'
+1309.9208 	EXP 	label_text: autoDraw = True
+1309.9208 	EXP 	shape_image: autoDraw = True
+1312.5528 	EXP 	New trial (rep=16, index=0): None
+1312.5530 	EXP 	window1: recordFrameIntervals = False
+1312.5657 	EXP 	label_text: autoDraw = False
+1312.5657 	EXP 	shape_image: autoDraw = False
+1312.5661 	EXP 	window1: recordFrameIntervals = False
+1313.0639 	EXP 	label_text: text = 'sad'
+1313.0639 	EXP 	shape_image: image = 'H.bmp'
+1313.0639 	EXP 	label_text: autoDraw = True
+1313.0639 	EXP 	shape_image: autoDraw = True
+1316.6084 	EXP 	New trial (rep=17, index=0): None
+1316.6085 	EXP 	window1: recordFrameIntervals = False
+1316.6227 	EXP 	label_text: autoDraw = False
+1316.6227 	EXP 	shape_image: autoDraw = False
+1316.6229 	EXP 	window1: recordFrameIntervals = False
+1317.1215 	EXP 	label_text: text = 'sad'
+1317.1215 	EXP 	shape_image: image = 'H.bmp'
+1317.1215 	EXP 	label_text: autoDraw = True
+1317.1215 	EXP 	shape_image: autoDraw = True
+1318.5730 	EXP 	New trial (rep=18, index=0): None
+1318.5732 	EXP 	window1: recordFrameIntervals = False
+1318.5854 	EXP 	label_text: autoDraw = False
+1318.5854 	EXP 	shape_image: autoDraw = False
+1318.5857 	EXP 	window1: recordFrameIntervals = False
+1319.0842 	EXP 	label_text: text = 'sad'
+1319.0842 	EXP 	shape_image: image = 'H.bmp'
+1319.0842 	EXP 	label_text: autoDraw = True
+1319.0842 	EXP 	shape_image: autoDraw = True
+1319.4395 	EXP 	New trial (rep=19, index=0): None
+1319.4398 	EXP 	window1: recordFrameIntervals = False
+1319.4503 	EXP 	label_text: autoDraw = False
+1319.4503 	EXP 	shape_image: autoDraw = False
+1319.4506 	EXP 	window1: recordFrameIntervals = False
+1319.9487 	EXP 	label_text: text = 'sad'
+1319.9487 	EXP 	shape_image: image = 'H.bmp'
+1319.9487 	EXP 	label_text: autoDraw = True
+1319.9487 	EXP 	shape_image: autoDraw = True
+1320.0364 	EXP 	New trial (rep=20, index=0): None
+1320.0366 	EXP 	window1: recordFrameIntervals = False
+1320.0486 	EXP 	label_text: autoDraw = False
+1320.0486 	EXP 	shape_image: autoDraw = False
+1320.0487 	EXP 	window1: recordFrameIntervals = False
+1320.5475 	EXP 	label_text: text = 'sad'
+1320.5475 	EXP 	shape_image: image = 'H.bmp'
+1320.5475 	EXP 	label_text: autoDraw = True
+1320.5475 	EXP 	shape_image: autoDraw = True
+1341.0388 	EXP 	New trial (rep=21, index=0): None
+1341.0389 	EXP 	window1: recordFrameIntervals = False
+1341.0539 	EXP 	label_text: autoDraw = False
+1341.0539 	EXP 	shape_image: autoDraw = False
+1341.0540 	EXP 	window1: recordFrameIntervals = False
+1341.5342 	EXP 	label_text: text = 'sad'
+1341.5342 	EXP 	shape_image: image = 'H.bmp'
+1341.5342 	EXP 	label_text: autoDraw = True
+1341.5342 	EXP 	shape_image: autoDraw = True
+1346.8255 	EXP 	New trial (rep=22, index=0): None
+1346.8256 	EXP 	window1: recordFrameIntervals = False
+1346.8399 	EXP 	label_text: autoDraw = False
+1346.8399 	EXP 	shape_image: autoDraw = False
+1346.8400 	EXP 	window1: recordFrameIntervals = False
+1347.3385 	EXP 	label_text: text = 'sad'
+1347.3385 	EXP 	shape_image: image = 'H.bmp'
+1347.3385 	EXP 	label_text: autoDraw = True
+1347.3385 	EXP 	shape_image: autoDraw = True
+1352.6953 	EXP 	New trial (rep=23, index=0): None
+1352.6954 	EXP 	window1: recordFrameIntervals = False
+1352.7098 	EXP 	label_text: autoDraw = False
+1352.7098 	EXP 	shape_image: autoDraw = False
+1352.7099 	EXP 	window1: recordFrameIntervals = False
+1353.1917 	EXP 	label_text: text = 'sad'
+1353.1917 	EXP 	shape_image: image = 'H.bmp'
+1353.1917 	EXP 	label_text: autoDraw = True
+1353.1917 	EXP 	shape_image: autoDraw = True
+1357.1853 	EXP 	New trial (rep=24, index=0): None
+1357.1854 	EXP 	window1: recordFrameIntervals = False
+1357.1997 	EXP 	label_text: autoDraw = False
+1357.1997 	EXP 	shape_image: autoDraw = False
+1357.1999 	EXP 	window1: recordFrameIntervals = False
+1357.6819 	EXP 	label_text: text = 'sad'
+1357.6819 	EXP 	shape_image: image = 'H.bmp'
+1357.6819 	EXP 	label_text: autoDraw = True
+1357.6819 	EXP 	shape_image: autoDraw = True
+1357.9500 	EXP 	New trial (rep=25, index=0): None
+1357.9500 	EXP 	window1: recordFrameIntervals = False
+1357.9654 	EXP 	label_text: autoDraw = False
+1357.9654 	EXP 	shape_image: autoDraw = False
+1357.9655 	EXP 	window1: recordFrameIntervals = False
+1358.4467 	EXP 	label_text: text = 'sad'
+1358.4467 	EXP 	shape_image: image = 'H.bmp'
+1358.4467 	EXP 	label_text: autoDraw = True
+1358.4467 	EXP 	shape_image: autoDraw = True
+1359.5652 	EXP 	New trial (rep=26, index=0): None
+1359.5653 	EXP 	window1: recordFrameIntervals = False
+1359.5791 	EXP 	label_text: autoDraw = False
+1359.5791 	EXP 	shape_image: autoDraw = False
+1359.5793 	EXP 	window1: recordFrameIntervals = False
+1360.0766 	EXP 	label_text: text = 'sad'
+1360.0766 	EXP 	shape_image: image = 'H.bmp'
+1360.0766 	EXP 	label_text: autoDraw = True
+1360.0766 	EXP 	shape_image: autoDraw = True
+1360.4796 	EXP 	New trial (rep=27, index=0): None
+1360.4797 	EXP 	window1: recordFrameIntervals = False
+1360.4932 	EXP 	label_text: autoDraw = False
+1360.4932 	EXP 	shape_image: autoDraw = False
+1360.4933 	EXP 	window1: recordFrameIntervals = False
+1360.9744 	EXP 	label_text: text = 'sad'
+1360.9744 	EXP 	shape_image: image = 'H.bmp'
+1360.9744 	EXP 	label_text: autoDraw = True
+1360.9744 	EXP 	shape_image: autoDraw = True
+1361.1435 	EXP 	New trial (rep=28, index=0): None
+1361.1436 	EXP 	window1: recordFrameIntervals = False
+1361.1577 	EXP 	label_text: autoDraw = False
+1361.1577 	EXP 	shape_image: autoDraw = False
+1361.1578 	EXP 	window1: recordFrameIntervals = False
+1361.6565 	EXP 	label_text: text = 'sad'
+1361.6565 	EXP 	shape_image: image = 'H.bmp'
+1361.6565 	EXP 	label_text: autoDraw = True
+1361.6565 	EXP 	shape_image: autoDraw = True
+1366.5224 	DATA 	Mouse: Left button down, pos=(965,583)
+1366.6002 	DATA 	Mouse:  Left button up, pos=(965,583)
+1366.6984 	DATA 	Keypress: escape
+1366.7301 	EXP 	sancho-test: status = STOPPED
+1366.7457 	EXP 	label_text: autoDraw = False
+1366.7457 	EXP 	shape_image: autoDraw = False
+1366.7458 	EXP 	sancho-test: status = STOPPED
+1366.9295 	EXP 	window1: mouseVisible = True
